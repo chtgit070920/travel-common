@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <description>cas client tag library</description>
+    <display-name>CCTL core</display-name>
+    <tlib-version>1.0</tlib-version>
+    <short-name>cas</short-name>
+    <uri>http://com.travel.common/tag/cas</uri>
+    <tag>
+        <name>userid</name>
+        <tag-class>com.travel.common.cas.tag.UseridTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>username</name>
+        <tag-class>com.travel.common.cas.tag.UsernameTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+</taglib>

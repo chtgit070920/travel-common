@@ -1,0 +1,57 @@
+* {margin: 0;padding: 0;}
+
+
+
+.public-header,
+.public-footer{float:left;width:100%;padding:0;margin:0;}
+
+.public-1200{width:1200px;margin:0px auto;}
+.public-1000{width:1000px;margin:0px auto;}
+
+.public-wrap{width:100%;float:left;padding:0;margin:0;}
+.public-wrap a{text-decoration: none;}
+.public-wrap a:hover{text-decoration: none;}
+
+.public-header-first-background{background: url(../images/first_background.jpg) top center repeat-y }
+.first-level{ background: #fff;  float: right; }
+.first-level a{margin-left:20px;color:#757575; float: left;line-height: 28px;height: 28px;font-size:12px; }
+.first-level a.phone{background: url(../images/phone.png) no-repeat left;padding-left: 10px;color: #ea8a01;font-weight: bold;}
+.first-level a.weibo{background: url(../images/weibo.png) no-repeat left;width: 17px;}
+.first-level a.wixin{background: url(../images/weixin.png) no-repeat left;width: 19px;}
+
+.public-header-second-background{background: url(../images/second_background.jpg) top center repeat-y }
+.second-level{float:left;width: 100%; height: 60px;}
+.second-level a{font-family:  'Microsoft YaHei',Arial,sans-serif;}
+.second-level .phone-400{float: right; height:60px;line-height: 60px;background: url(../images/telect.png) no-repeat left;padding-left: 30px;color: #fff;  font-size: 18px;font-weight: bold;}
+.second-level .menus{float:left;position:relative}
+.second-level .menus .other-menus{float: left;margin-left:277px;height:60px;_overflow:hidden; list-style: outside none none;}
+.second-level .menus .other-menus .menu{float:left;padding:0px 15px;height:60px;line-height:60px;}
+.second-level .menus .other-menus .menu .tab-link{float:left;color:#fff;font-size: 18px;}
+.second-level .menus .other-menus .menu div{ float:left;position:absolute;left:0px;top:60px; width:1183px; height:25px; display:none;padding:6px;background:#fbfbfa;z-index:99999;border-left:1px solid #4db7ef;border-bottom:1px solid #4db7ef;border-right:1px solid #4db7ef;  }
+.second-level .menus .other-menus .menu div a{float:left;display:inline;margin: 0px 20px 0 0 ;line-height:25px; height:25px;border:none;font-size:14px; color:#979696;}
+.second-level .menus .other-menus .menu em.up-down{display: inline-block;background: url(../images/down.png) no-repeat left;width:15px;height: 11px;margin-left: 5px;}
+.second-level .menus .other-menus .menu div a.first-scenic{margin-left: 355px;}
+.second-level .menus .other-menus .menu div a.first-hotel{margin-left:490px;}
+
+/*选中*/
+.second-level .menus .other-menus li.hovered{background-color:#4EA9D9;}
+.second-level .menus .other-menus li.hovered .tab-link{color:#ffffff;}
+.second-level .menus .other-menus li.hovered em.up-down{background: url(../images/up.png) no-repeat left;}
+.second-level .menus .other-menus li.hovered div{display:block;}
+
+.second-level .menus .other-menus li.clicked{background-color:#4EA9D9;}
+.second-level .menus .other-menus li.clicked .tab-link{color:#ffffff;}
+.second-level .menus .other-menus li.clicked em.up-down{background: url(../images/up.png) no-repeat left;}
+.second-level .menus .other-menus li.clicked div{display:block;}
+.second-level .menus .other-menus li div a.clicked{color:#4db7ef;}
+.second-level .menus .other-menus li div a.hovered{color:#4db7ef;}
+.second-level .menus .other-menus li div.hide{display:none;}
+
+.public-logo{height: 88px;width:284px;float: left;position: absolute; left: -1px;top:0;background: url("../images/logo_background.png")}
+
+.public-simpleT{width: 100%;float: left}
+.public-simpleT .public-simple-left{float: left;background: url(../images/logo.png) no-repeat left;width: 180px;height: 60px;font-size: 18px;font-weight: bold;}
+.public-simpleT .public-simple-right{float: right;height: 60px;line-height: 60px;background: url(../images/telect_black.png) no-repeat left;padding-left: 30px;font-size: 18px;}
+
+.public-simleB-line{border-top: 2px solid #4db7ef;margin-top: 20px;}
+.public-simpleB{line-height: 40px;text-align: center;margin: 10px 0 ;font-size: 14px;color: #757575}
